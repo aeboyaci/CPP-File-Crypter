@@ -1,0 +1,9 @@
+﻿  crypto++_test.cpp
+C:\Users\AhmetErenBOYACI\source\repos\crypto++_test\crypto++_test\crypto++_test.cpp(103,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\AhmetErenBOYACI\source\repos\crypto++_test\crypto++_test\crypto++_test.cpp(108,23): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  2 of 1280 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  crypto++_test.vcxproj -> C:\Users\AhmetErenBOYACI\source\repos\crypto++_test\Release\crypto++_test.exe
