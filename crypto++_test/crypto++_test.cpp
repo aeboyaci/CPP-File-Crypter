@@ -94,9 +94,7 @@ int main(int argc, char* argv[])
     StringSource hashStringSource(myKey, true, new HashFilter(hash, new StringSink(digest)));
 
     key = SecByteBlock((const CryptoPP::byte*)digest.data(), digest.size());
-
-    prng.GenerateBlock(key, key.size());
-    prng.GenerateBlock(iv, iv.size());
+    prng.GenerateBlock(iv, iv.size()); // Random IV generation
 
     vector<string> paths = findFiles(".\\sample_files");
 
